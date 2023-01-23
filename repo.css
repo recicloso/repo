@@ -319,8 +319,8 @@ h4{
     align-items: center;
     justify-content: center;   
     color: #000000;
-  font-size: 30px;
-  cursor:pointer;
+    font-size: 30px;
+    cursor:pointer;
   } 
   
   #robot{
@@ -414,6 +414,7 @@ h4{
       } 
       #robot{
         font-size: 16px;
+        margin-left: 3px;
         } 
       .todos{
         padding-top: 65px;
