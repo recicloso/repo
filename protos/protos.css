@@ -43,7 +43,7 @@ body{
   .topo a{
     text-decoration: none;
   }
-   #carrito, #carrito1, .carrito2  {
+   #carrito, #carrito1, .carrito2, .carrito3  {
     display: flex;
     align-items: center;
     justify-content: center;   
@@ -250,3 +250,16 @@ body{
         height: 990px;
         }
     }
+     /*///////////////////////////////////////////350////////////*/
+     @media (max-width:350px){ 
+      .cabeza{
+        height: 40px;
+        }
+        .noderecha{
+          width: 20%;
+        }
+        .derecha{
+          width: 80%;
+        }
+
+        }
