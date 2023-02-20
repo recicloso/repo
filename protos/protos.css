@@ -4,48 +4,50 @@ body{
     margin: 0%;
   }
   button{
-    border-color: #2d2d2d;
+    border-color:  #444444;
   }
-
   .cabeza{
-    width: 100%;
+     width: 100%;
     height: 110px;
-    position: fixed;
     display: flex;
     align-items: right;
     justify-content: right;  
     }
+    .noderecha{
+      width: 65%;
+      height: 100%;
+      float: left;
+    }
   .derecha{
-    width: 40%;
+    width: 35%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
+    float: left;
   }
   .dedos{
     width: 75px;
     height: 75px;
     margin-top: 2%;
-    margin-right: 4%;
+    margin-right: 2%;
     float: left;
   }
   .topo{
     background-color: rgb(255, 255, 255);
+    color:  #444444;
     width:100%;
     height: 90%;
     cursor:pointer;
   }
   .topo:hover{
-    background-color: #d8f2f1;
+    background-color: rgb(255, 244, 43);
 }
   .topo a{
     text-decoration: none;
   }
-   #carrito, #carrito1, carrito2  {
+   #carrito, #carrito1, .carrito2  {
     display: flex;
     align-items: center;
     justify-content: center;   
-    color: #2b2b2b;
+    color: #444444;
  }
   #carrito{
    font-size: 30px;
@@ -54,20 +56,162 @@ body{
     font-size: 50px;
    }
    #carrito2{
-    margin-top: 12px;
+    margin-top: 20px;
     font-size: 35px;
     cursor:crosshair;
    }
    .titulorecicloso{
-    width: 100%;
-    height: 100px;
-    padding-top: 110px;
+     width: 100%;
+    height: 150px;
    }
-   .izquierda{
-    background-color: aquamarine;
-    width: 70%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-   }
+   h2{
+    margin-left: 4%;
+    color: #444444;
+   font-size: 72px;
+   line-height: 57px;
+   font-family:Helvetica;
+  }
+  h1{
+
+    color: #444444;
+   font-size: 22px;
+   line-height: 10px;
+   font-family:Helvetica;
+  }
+  h3{
+    color: #444444;
+   font-size: 15px;
+   line-height: 12px;
+   font-family:Helvetica;
+  }
+  .izquierda1{
+    width: 4%;
+    height: 900px;
+    float: left;
+  }
+  .derecha1{
+    margin-left: 2%;
+    width: 25%;
+    height: 900px;
+    float: left;
+  }
+  .centro1{
+    width:65%;
+    height: 900px;
+    float: left;
+  }
+  /*///////////////////////////////////////////825////////////*/
+  @media (max-width:825px){ 
+    .cabeza{
+      height: 70px;
+      }
+      .noderecha{
+        width: 55%;
+      }
+      .derecha{
+        width: 45%;
+      }
+      .dedos{
+        width: 55px;
+        height: 55px;
+        margin-top: 4%;
+      }
+      #carrito{
+        font-size: 22px;
+       }
+       #carrito1{
+         font-size: 35px;
+        }
+        #carrito2{
+         margin-top: 16px;
+         font-size: 25px;
+        }
+         h2{
+         font-size: 46px;
+         line-height: 50px;
+        }
+        h1{
+         font-size: 16px;
+         
+        }
+        h3{
+         font-size: 10px;
+        }
+        .izquierda1{
+          width: 5%;
+          height: 1300px;
+        }
+        .derecha1{
+          width: 95%;
+          margin-left: 5%;
+          height: 1300px;
+        }
+        .centro1{
+          width: 90%;
+          height: 1300px;
+        }
+
+  }
+   /*///////////////////////////////////////////650////////////*/
+   @media (max-width:650px){ 
+    .noderecha{
+      width: 40%;
+    }
+    .derecha{
+      width: 60%;
+    }
+      .dedos{
+        width: 45px;
+        height: 45px;
+      }
+      #carrito{
+        font-size: 16px;
+       }
+       #carrito1{
+         font-size: 26px;
+        }
+        #carrito2{
+         margin-top: 9px;
+         font-size: 18px;
+        }
+        h2{
+          font-size: 40px;
+          line-height: 42px;
+         }
+
+      }
+    /*///////////////////////////////////////////450////////////*/
+    @media (max-width:450px){ 
+      .cabeza{
+        height: 50px;
+        }
+        .noderecha{
+          width: 45%;
+        }
+        .derecha{
+          width: 55%;
+        }
+        .dedos{
+          width: 35px;
+          height: 35px;
+        }
+        #carrito{
+          font-size: 16px;
+         }
+         #carrito1{
+           font-size: 26px;
+          }
+          #carrito2{
+           margin-top: 9px;
+           font-size: 18px;
+          }
+      .titulorecicloso{
+        height: 90px;
+       }
+      h2{
+        font-size: 33px;
+        line-height: 28px;
+        margin-left: 1%;
+       }
+
+    }
