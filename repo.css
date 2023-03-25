@@ -283,6 +283,7 @@ h2{
   text-align: left;
   font-size: 14px;
   font-weight: 220;
+  line-height: 14px; /*espacio entre lineas*/
 }
 h2 a{
   text-decoration: none;
@@ -306,16 +307,19 @@ p{
   text-align: left;
   font-size: 22px;
   font-weight: 444;
+  line-height: 18px; /*espacio entre lineas*/
+  
 }
 
 h4{
-  color: #2d2d2d ;
+  color: #434343 ;
   margin-bottom: -22px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: justify;
   text-align: left;
   font-size: 12px;
-  font-weight: 444;
+  font-weight: 424;
+  line-height: 12px; /*espacio entre lineas*/
 }
 
   #carrito{
@@ -331,7 +335,7 @@ h4{
     align-items:first baseline;
     justify-content: right;   
     color: #444444;
-    font-size: 40px;
+    font-size: 35px;
    }
    .entericon a{
     text-decoration: none;
